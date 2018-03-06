@@ -1,0 +1,16 @@
+{
+  "name": "zadanie_13.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test:js": "jshint program.js",
+    "download": "curl https://raw.githubusercontent.com/jshint/jshint/master/examples/.jshintrc -o .jshintrc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
+}
