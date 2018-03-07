@@ -9,11 +9,11 @@ process.stdin.on('readable', function() {
                 process.stdout.write('Quitting app!\n');
                 process.exit();
                 break;
-            case 'env':
-                console.log(process.env.OS);
+            case '/env':
+                console.log('Language: ' + process.env.LANG);
                 break;
-            case 'version':
-                console.log(process.versions);
+            case '/version':
+                console.log('Node version: ' + process.versions.node);
                 break;
             default:
                 process.stderr.write('Wrong instruction!\n');
